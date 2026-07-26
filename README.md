@@ -6,7 +6,7 @@ published Karnataka State Police statistics** — not synthetic demo data.
 analytics and mapping, a working PDF export, a real session audit log, and
 editable settings with file upload.
 
-> **Real data. Real features. Zero backend required.**
+> **Real data. Real features.**
 
 ---
 
@@ -37,13 +37,13 @@ government statistics, turn every placeholder tab into a genuinely working
 feature, and add a live-AI chat layer with an honest fallback.
 
 The entire application — markup, styling, charts, and logic — lives in
-**one HTML file** (`ksp_crime_dashboard.html`, ~5&nbsp;MB, because it embeds
+**one HTML file** (`index.html`, ~5&nbsp;MB, because it embeds
 the full Plotly.js charting library so it works completely offline). There
 is no server, no database, and no build step required to *view* it.
 
 ## Live demo / how to view it
 
-- **Easiest:** open `ksp_crime_dashboard.html` in any modern browser
+- **Easiest:** open `index.html` in any modern browser
   (double-click it, or drag it into a browser window).
 - **As a Claude artifact:** if you're viewing this inside Claude, the
   dashboard renders inline and its chat features can use a real Claude model
@@ -163,7 +163,7 @@ this project doesn't pretend otherwise.
 
 ```
 ksp_dashboard/
-├── ksp_crime_dashboard.html   # the built app — open this file directly
+├── index.html   # the built app — open this file directly
 ├── build_dashboard.py         # main build script: HTML/CSS/JS templating
 ├── build_charts.py            # Plotly figure builders + chart registry
 ├── build_network_svg.py       # the illustrative network-diagram SVG
@@ -195,7 +195,7 @@ python3 build_dashboard.py   # (re)builds ksp_crime_dashboard.html
 ```
 
 Both scripts are deterministic — rebuilding produces a byte-identical
-`ksp_crime_dashboard.html` given the same source files.
+`index.html` given the same source files.
 
 ## Responsive design
 
