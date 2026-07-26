@@ -196,9 +196,9 @@ python3 build_dashboard.py   # (re)builds ksp_crime_dashboard.html
 Both scripts are deterministic — rebuilding produces a byte-identical
 `index.html` given the same source files.
 
+## Setup Instructions
+
 ### Prerequisites
-
-
 
 - Python 3.9+
 - Plotly
