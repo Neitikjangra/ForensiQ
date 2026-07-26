@@ -1,0 +1,506 @@
+{
+  "generated_at": "26 May 2025 00:00:00",
+  "kpis": {
+    "total_firs": 245789,
+    "total_firs_delta": 18.6,
+    "cases_solved": 145752,
+    "cases_solved_delta": 22.4,
+    "conviction_rate": 68.7,
+    "conviction_rate_delta": 5.3,
+    "active_investigations": 66342,
+    "active_investigations_delta": 12.7,
+    "repeat_offenders": 8472,
+    "repeat_offenders_delta": 14.8,
+    "crime_hotspots": 23,
+    "cases_registered_today": 1247,
+    "cases_registered_delta": 8.4,
+    "arrests_today": 312,
+    "arrests_delta": 11.2
+  },
+  "districts": [
+    {
+      "district": "Bengaluru City",
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "firs": 16456,
+      "cases_solved": 9120,
+      "risk_intensity": 84.4,
+      "yoy_change_pct": -8.2
+    },
+    {
+      "district": "Mysuru",
+      "lat": 12.2958,
+      "lon": 76.6394,
+      "firs": 857,
+      "cases_solved": 491,
+      "risk_intensity": 4.4,
+      "yoy_change_pct": -16.9
+    },
+    {
+      "district": "Hubballi-Dharwad",
+      "lat": 15.3647,
+      "lon": 75.124,
+      "firs": 1916,
+      "cases_solved": 1344,
+      "risk_intensity": 9.8,
+      "yoy_change_pct": -17.7
+    },
+    {
+      "district": "Belagavi",
+      "lat": 15.8497,
+      "lon": 74.4977,
+      "firs": 1264,
+      "cases_solved": 702,
+      "risk_intensity": 6.5,
+      "yoy_change_pct": -17.3
+    },
+    {
+      "district": "Kalaburagi",
+      "lat": 17.3297,
+      "lon": 76.8343,
+      "firs": 876,
+      "cases_solved": 557,
+      "risk_intensity": 4.5,
+      "yoy_change_pct": -20.7
+    },
+    {
+      "district": "Ballari",
+      "lat": 15.1394,
+      "lon": 76.9214,
+      "firs": 807,
+      "cases_solved": 542,
+      "risk_intensity": 4.1,
+      "yoy_change_pct": 13.1
+    },
+    {
+      "district": "Davanagere",
+      "lat": 14.4644,
+      "lon": 75.9932,
+      "firs": 1259,
+      "cases_solved": 739,
+      "risk_intensity": 6.5,
+      "yoy_change_pct": 7.5
+    },
+    {
+      "district": "Shivamogga",
+      "lat": 13.9299,
+      "lon": 75.5681,
+      "firs": 2057,
+      "cases_solved": 1435,
+      "risk_intensity": 10.5,
+      "yoy_change_pct": 15.9
+    },
+    {
+      "district": "Mangaluru",
+      "lat": 12.9141,
+      "lon": 74.856,
+      "firs": 726,
+      "cases_solved": 485,
+      "risk_intensity": 3.7,
+      "yoy_change_pct": -5.0
+    },
+    {
+      "district": "Tumakuru",
+      "lat": 13.3379,
+      "lon": 77.1173,
+      "firs": 718,
+      "cases_solved": 421,
+      "risk_intensity": 3.7,
+      "yoy_change_pct": 16.2
+    },
+    {
+      "district": "Udupi",
+      "lat": 13.3409,
+      "lon": 74.7421,
+      "firs": 609,
+      "cases_solved": 344,
+      "risk_intensity": 3.1,
+      "yoy_change_pct": -17.2
+    },
+    {
+      "district": "Vijayapura",
+      "lat": 16.8302,
+      "lon": 75.71,
+      "firs": 2135,
+      "cases_solved": 1299,
+      "risk_intensity": 10.9,
+      "yoy_change_pct": -8.8
+    },
+    {
+      "district": "Raichur",
+      "lat": 16.2076,
+      "lon": 77.3463,
+      "firs": 488,
+      "cases_solved": 328,
+      "risk_intensity": 2.5,
+      "yoy_change_pct": 4.8
+    },
+    {
+      "district": "Bidar",
+      "lat": 17.9104,
+      "lon": 77.5199,
+      "firs": 1175,
+      "cases_solved": 661,
+      "risk_intensity": 6.0,
+      "yoy_change_pct": -7.3
+    },
+    {
+      "district": "Chikkamagaluru",
+      "lat": 13.3161,
+      "lon": 75.772,
+      "firs": 1687,
+      "cases_solved": 1105,
+      "risk_intensity": 8.7,
+      "yoy_change_pct": 21.1
+    },
+    {
+      "district": "Hassan",
+      "lat": 13.0072,
+      "lon": 76.0962,
+      "firs": 1582,
+      "cases_solved": 921,
+      "risk_intensity": 8.1,
+      "yoy_change_pct": -18.5
+    },
+    {
+      "district": "Kolar",
+      "lat": 13.1372,
+      "lon": 78.1298,
+      "firs": 1754,
+      "cases_solved": 1032,
+      "risk_intensity": 9.0,
+      "yoy_change_pct": -7.5
+    },
+    {
+      "district": "Mandya",
+      "lat": 12.5221,
+      "lon": 76.8951,
+      "firs": 563,
+      "cases_solved": 391,
+      "risk_intensity": 2.9,
+      "yoy_change_pct": 21.3
+    },
+    {
+      "district": "Chitradurga",
+      "lat": 14.2296,
+      "lon": 76.3985,
+      "firs": 1178,
+      "cases_solved": 703,
+      "risk_intensity": 6.0,
+      "yoy_change_pct": 9.8
+    },
+    {
+      "district": "Koppal",
+      "lat": 15.3547,
+      "lon": 76.1544,
+      "firs": 1147,
+      "cases_solved": 662,
+      "risk_intensity": 5.9,
+      "yoy_change_pct": -4.2
+    }
+  ],
+  "most_active_district": {
+    "district": "Bengaluru City",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "firs": 16456,
+    "cases_solved": 9120,
+    "risk_intensity": 84.4,
+    "yoy_change_pct": -8.2
+  },
+  "most_improved_district": {
+    "district": "Kalaburagi",
+    "lat": 17.3297,
+    "lon": 76.8343,
+    "firs": 876,
+    "cases_solved": 557,
+    "risk_intensity": 4.5,
+    "yoy_change_pct": -20.7
+  },
+  "crime_categories": [
+    {
+      "category": "Theft",
+      "count": 56789,
+      "color": "#8b5cf6"
+    },
+    {
+      "category": "Assault",
+      "count": 45612,
+      "color": "#f59e0b"
+    },
+    {
+      "category": "Cheating",
+      "count": 34567,
+      "color": "#22c55e"
+    },
+    {
+      "category": "Cyber Crime",
+      "count": 28945,
+      "color": "#3b82f6"
+    },
+    {
+      "category": "Robbery",
+      "count": 25478,
+      "color": "#ef4444"
+    },
+    {
+      "category": "Other",
+      "count": 54398,
+      "color": "#94a3b8"
+    }
+  ],
+  "most_common_category": {
+    "category": "Theft",
+    "count": 56789,
+    "color": "#8b5cf6"
+  },
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "trend_2024": [
+    17397,
+    25955,
+    27226,
+    17699,
+    27524,
+    26410,
+    18427,
+    26700,
+    27236,
+    19481,
+    27615,
+    26108
+  ],
+  "trend_2025": [
+    13860,
+    24131,
+    27375,
+    13501,
+    26254
+  ],
+  "cases_sparkline": [
+    1370,
+    834,
+    1056,
+    1219,
+    1285,
+    843,
+    848,
+    1172,
+    1120,
+    988,
+    1120,
+    1040,
+    905,
+    1093
+  ],
+  "arrests_sparkline": [
+    334,
+    293,
+    205,
+    325,
+    304,
+    307,
+    240,
+    233,
+    212,
+    188,
+    300,
+    299,
+    339,
+    306
+  ],
+  "stations": [
+    {
+      "station": "Bengaluru City PS",
+      "firs": 4567
+    },
+    {
+      "station": "Whitefield PS",
+      "firs": 3456
+    },
+    {
+      "station": "Madiwala PS",
+      "firs": 2987
+    },
+    {
+      "station": "Yeshwanthpur PS",
+      "firs": 2654
+    },
+    {
+      "station": "K.R. Puram PS",
+      "firs": 2345
+    }
+  ],
+  "network": {
+    "center": {
+      "id": "suspect",
+      "label": "Suspect X",
+      "role": "History-Sheeter (demo record)"
+    },
+    "nodes": [
+      {
+        "id": "assoc1",
+        "label": "Associate 1",
+        "type": "person",
+        "icon": "person"
+      },
+      {
+        "id": "assoc2",
+        "label": "Associate 2",
+        "type": "person",
+        "icon": "person"
+      },
+      {
+        "id": "vehicles",
+        "label": "Stolen Vehicles (12)",
+        "type": "asset",
+        "icon": "car"
+      },
+      {
+        "id": "phones",
+        "label": "Phone Numbers (7)",
+        "type": "asset",
+        "icon": "phone"
+      },
+      {
+        "id": "gang",
+        "label": "Linked Gang Group",
+        "type": "group",
+        "icon": "group"
+      },
+      {
+        "id": "cases",
+        "label": "Linked Cases (23)",
+        "type": "case",
+        "icon": "file"
+      }
+    ]
+  },
+  "predictive": {
+    "horizon_days": 7,
+    "top_categories": [
+      "Theft",
+      "Robbery"
+    ],
+    "districts": [
+      "Bengaluru City",
+      "Mysuru",
+      "Tumakuru"
+    ],
+    "risk_level": "High Risk",
+    "confidence_score": 87
+  },
+  "copilot_suggestions": [
+    "3 repeat offenders released from prison are active in Bengaluru",
+    "Theft cases are increasing 32% in weekend nights",
+    "2 new criminal gangs formed in last 15 days"
+  ],
+  "alerts": [
+    {
+      "title": "Crime Spike Alert",
+      "text": "Theft cases increased by 41% in Tumakuru",
+      "kind": "spike",
+      "minutes_ago": 10
+    },
+    {
+      "title": "Repeat Offender Alert",
+      "text": "Udant Dewan spotted in Vijayapura",
+      "kind": "offender",
+      "minutes_ago": 21
+    },
+    {
+      "title": "Crime Spike Alert",
+      "text": "Theft cases increased by 25% in Koppal",
+      "kind": "spike",
+      "minutes_ago": 31
+    },
+    {
+      "title": "Crime Spike Alert",
+      "text": "Theft cases increased by 44% in Belagavi",
+      "kind": "spike",
+      "minutes_ago": 51
+    },
+    {
+      "title": "Cyber Fraud Alert",
+      "text": "UPI fraud cases increased in Shivamogga",
+      "kind": "cyber",
+      "minutes_ago": 67
+    },
+    {
+      "title": "Crime Spike Alert",
+      "text": "Theft cases increased by 38% in Hubballi-Dharwad",
+      "kind": "spike",
+      "minutes_ago": 79
+    }
+  ],
+  "most_wanted": [
+    {
+      "name": "Udarsh Mall",
+      "initials": "UM",
+      "charges": "Theft, Robbery, Assault",
+      "reward": 50000
+    },
+    {
+      "name": "Fariq Sami",
+      "initials": "FS",
+      "charges": "NDPS, Arms Act",
+      "reward": 25000
+    },
+    {
+      "name": "Liam Dugal",
+      "initials": "LD",
+      "charges": "Cheating, Forgery",
+      "reward": 20000
+    }
+  ],
+  "fir_log": [
+    {
+      "fir_no": "1234/2025",
+      "crime_type": "Cheating",
+      "station": "Bengaluru City PS",
+      "minutes_ago": 2
+    },
+    {
+      "fir_no": "1233/2025",
+      "crime_type": "Burglary",
+      "station": "Whitefield PS",
+      "minutes_ago": 7
+    },
+    {
+      "fir_no": "1232/2025",
+      "crime_type": "Assault",
+      "station": "K.R. Puram PS",
+      "minutes_ago": 17
+    },
+    {
+      "fir_no": "1231/2025",
+      "crime_type": "Cheating",
+      "station": "K.R. Puram PS",
+      "minutes_ago": 24
+    },
+    {
+      "fir_no": "1230/2025",
+      "crime_type": "Cheating",
+      "station": "Whitefield PS",
+      "minutes_ago": 33
+    },
+    {
+      "fir_no": "1229/2025",
+      "crime_type": "Robbery",
+      "station": "Madiwala PS",
+      "minutes_ago": 39
+    }
+  ]
+}

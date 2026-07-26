@@ -1,0 +1,1215 @@
+{
+  "meta": {
+    "generated_at": "26 Jul 2026",
+    "source_name": "Karnataka State Police (ksp.karnataka.gov.in), via OpenCity Urban Data Portal",
+    "source_url": "https://data.opencity.in/dataset/karnataka-crime-data-2024",
+    "latest_year": 2024,
+    "note": "Aggregate crime statistics (totals, categories, district figures, trends) are real published Karnataka State Police figures for 2022\u20132024, the most recent year available. Individual FIR records, named suspects, the network diagram, vehicle records, and 'today' counters are clearly-labeled illustrative examples \u2014 no public dataset of individual case or suspect records exists, and no Indian state police force publishes a live case-management feed."
+  },
+  "kpis": {
+    "total_cases": 214234,
+    "total_cases_year": 2023,
+    "total_cases_yoy_pct": 18.5,
+    "category_snapshot_total_2024": 172586,
+    "bengaluru_total_2024": 38189,
+    "cyber_crime_2024": 22402,
+    "cyber_crime_growth_pct": 77.3,
+    "women_safety_cases_2024": 12049,
+    "women_children_2024": 18963,
+    "districts_tracked": 37,
+    "theft_2024": 22848,
+    "district_median_2024": 1776,
+    "high_volume_districts": 18
+  },
+  "trend_bengaluru": {
+    "years": [
+      2021,
+      2022,
+      2023
+    ],
+    "series": [
+      {
+        "name": "Theft & Property Crime",
+        "values": [
+          7566,
+          9254,
+          12627
+        ],
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "Cyber Crime",
+        "values": [
+          6422,
+          9940,
+          17623
+        ],
+        "color": "#22d3ee"
+      },
+      {
+        "name": "Crimes Against Women",
+        "values": [
+          2020,
+          2630,
+          3260
+        ],
+        "color": "#ef4444"
+      }
+    ],
+    "note": "Bengaluru City Police reported cases by category, 2021\u20132023 \u2014 real, sourced, one consistent methodology throughout."
+  },
+  "crime_categories": [
+    {
+      "category": "Theft & Burglary",
+      "count": 28298,
+      "color": "#8b5cf6"
+    },
+    {
+      "category": "Cyber Crime",
+      "count": 22402,
+      "color": "#22d3ee"
+    },
+    {
+      "category": "Other (Riots, Gambling, SC/ST Act)",
+      "count": 18430,
+      "color": "#94a3b8"
+    },
+    {
+      "category": "Hurt / Assault",
+      "count": 17045,
+      "color": "#f59e0b"
+    },
+    {
+      "category": "Crimes Against Women",
+      "count": 12049,
+      "color": "#ef4444"
+    },
+    {
+      "category": "Crimes Against Children (POCSO)",
+      "count": 6914,
+      "color": "#ec4899"
+    },
+    {
+      "category": "Murder & Attempt",
+      "count": 4071,
+      "color": "#dc2626"
+    },
+    {
+      "category": "Robbery & Dacoity",
+      "count": 1881,
+      "color": "#3b82f6"
+    }
+  ],
+  "districts": [
+    {
+      "district": "Bengaluru City",
+      "firs_2024": 38189,
+      "firs_2023": 68520,
+      "firs_2022": 46187,
+      "yoy_2022_23_pct": 48.4,
+      "top_category_2024": "Cyber Crime",
+      "lat": 12.9716,
+      "lon": 77.5946
+    },
+    {
+      "district": "Bengaluru District",
+      "firs_2024": 4795,
+      "firs_2023": 9421,
+      "firs_2022": 6992,
+      "yoy_2022_23_pct": 34.7,
+      "top_category_2024": "Theft",
+      "lat": 13.05,
+      "lon": 77.35
+    },
+    {
+      "district": "Tumakuru",
+      "firs_2024": 3861,
+      "firs_2023": 8249,
+      "firs_2022": 7044,
+      "yoy_2022_23_pct": 17.1,
+      "top_category_2024": "Hurt",
+      "lat": 13.3379,
+      "lon": 77.1173
+    },
+    {
+      "district": "Shivamogga",
+      "firs_2024": 3256,
+      "firs_2023": 6404,
+      "firs_2022": 6091,
+      "yoy_2022_23_pct": 5.1,
+      "top_category_2024": "Hurt",
+      "lat": 14.5,
+      "lon": 75.7
+    },
+    {
+      "district": "Chitradurga",
+      "firs_2024": 3118,
+      "firs_2023": 5912,
+      "firs_2022": 5321,
+      "yoy_2022_23_pct": 11.1,
+      "top_category_2024": "Hurt",
+      "lat": 14.2296,
+      "lon": 76.3985
+    },
+    {
+      "district": "Belagavi District",
+      "firs_2024": 3053,
+      "firs_2023": 6785,
+      "firs_2022": 6027,
+      "yoy_2022_23_pct": 12.6,
+      "top_category_2024": "Gambling",
+      "lat": 15.95,
+      "lon": 74.65
+    },
+    {
+      "district": "Hassan",
+      "firs_2024": 2904,
+      "firs_2023": 6363,
+      "firs_2022": 5841,
+      "yoy_2022_23_pct": 8.9,
+      "top_category_2024": "Hurt",
+      "lat": 13.0072,
+      "lon": 76.0962
+    },
+    {
+      "district": "Raichur",
+      "firs_2024": 2829,
+      "firs_2023": 4087,
+      "firs_2022": 3925,
+      "yoy_2022_23_pct": 4.1,
+      "top_category_2024": "Gambling",
+      "lat": 16.2076,
+      "lon": 77.3463
+    },
+    {
+      "district": "Mysuru District",
+      "firs_2024": 2750,
+      "firs_2023": 5424,
+      "firs_2022": 5403,
+      "yoy_2022_23_pct": 0.4,
+      "top_category_2024": "Hurt",
+      "lat": 12.15,
+      "lon": 76.55
+    },
+    {
+      "district": "Davanagere",
+      "firs_2024": 2496,
+      "firs_2023": 4925,
+      "firs_2022": 4391,
+      "yoy_2022_23_pct": 12.2,
+      "top_category_2024": "Gambling",
+      "lat": 14.4644,
+      "lon": 75.9932
+    },
+    {
+      "district": "Mandya",
+      "firs_2024": 2354,
+      "firs_2023": 5964,
+      "firs_2022": 5611,
+      "yoy_2022_23_pct": 6.3,
+      "top_category_2024": "Hurt",
+      "lat": 12.5221,
+      "lon": 76.8951
+    },
+    {
+      "district": "Vijayapura",
+      "firs_2024": 2347,
+      "firs_2023": 4506,
+      "firs_2022": 4296,
+      "yoy_2022_23_pct": 4.9,
+      "top_category_2024": "Gambling",
+      "lat": 16.8302,
+      "lon": 75.71
+    },
+    {
+      "district": "Ramanagara",
+      "firs_2024": 2307,
+      "firs_2023": 5252,
+      "firs_2022": 5875,
+      "yoy_2022_23_pct": -10.6,
+      "top_category_2024": "Hurt",
+      "lat": 12.7217,
+      "lon": 77.2812
+    },
+    {
+      "district": "Haveri",
+      "firs_2024": 2235,
+      "firs_2023": 3404,
+      "firs_2022": 3176,
+      "yoy_2022_23_pct": 7.2,
+      "top_category_2024": "Gambling",
+      "lat": 14.7936,
+      "lon": 75.4044
+    },
+    {
+      "district": "Chickballapura",
+      "firs_2024": 2215,
+      "firs_2023": 3957,
+      "firs_2022": 4320,
+      "yoy_2022_23_pct": -8.4,
+      "top_category_2024": "Hurt",
+      "lat": 14.5,
+      "lon": 75.7
+    },
+    {
+      "district": "Bidar",
+      "firs_2024": 2063,
+      "firs_2023": 4334,
+      "firs_2022": 4022,
+      "yoy_2022_23_pct": 7.8,
+      "top_category_2024": "Hurt",
+      "lat": 17.9104,
+      "lon": 77.5199
+    },
+    {
+      "district": "Kalaburgi",
+      "firs_2024": 2062,
+      "firs_2023": 3669,
+      "firs_2022": 3312,
+      "yoy_2022_23_pct": 10.8,
+      "top_category_2024": "Gambling",
+      "lat": 17.45,
+      "lon": 76.95
+    },
+    {
+      "district": "Ballari",
+      "firs_2024": 1947,
+      "firs_2023": 3439,
+      "firs_2022": 3226,
+      "yoy_2022_23_pct": 6.6,
+      "top_category_2024": "Gambling",
+      "lat": 15.1394,
+      "lon": 76.9214
+    },
+    {
+      "district": "Uttara Kannada",
+      "firs_2024": 1776,
+      "firs_2023": 3495,
+      "firs_2022": 3525,
+      "yoy_2022_23_pct": -0.9,
+      "top_category_2024": "Hurt",
+      "lat": 14.796,
+      "lon": 74.705
+    },
+    {
+      "district": "Chikkamagaluru",
+      "firs_2024": 1774,
+      "firs_2023": 4247,
+      "firs_2022": 3855,
+      "yoy_2022_23_pct": 10.2,
+      "top_category_2024": "Hurt",
+      "lat": 13.3161,
+      "lon": 75.772
+    },
+    {
+      "district": "Vijayanagara",
+      "firs_2024": 1706,
+      "firs_2023": 3178,
+      "firs_2022": 2886,
+      "yoy_2022_23_pct": 10.1,
+      "top_category_2024": "Gambling",
+      "lat": 15.269,
+      "lon": 76.46
+    },
+    {
+      "district": "Hubballi Dharwad City",
+      "firs_2024": 1619,
+      "firs_2023": 3065,
+      "firs_2022": 3145,
+      "yoy_2022_23_pct": -2.5,
+      "top_category_2024": "Gambling",
+      "lat": 14.5,
+      "lon": 75.7
+    },
+    {
+      "district": "Bagalkot",
+      "firs_2024": 1606,
+      "firs_2023": 3302,
+      "firs_2022": 2934,
+      "yoy_2022_23_pct": 12.5,
+      "top_category_2024": "Gambling",
+      "lat": 16.1691,
+      "lon": 75.662
+    },
+    {
+      "district": "Koppal",
+      "firs_2024": 1575,
+      "firs_2023": 2746,
+      "firs_2022": 3068,
+      "yoy_2022_23_pct": -10.5,
+      "top_category_2024": "Gambling",
+      "lat": 15.3547,
+      "lon": 76.1544
+    },
+    {
+      "district": "Mysuru City",
+      "firs_2024": 1558,
+      "firs_2023": 3269,
+      "firs_2022": 3305,
+      "yoy_2022_23_pct": -1.1,
+      "top_category_2024": "Theft",
+      "lat": 12.2958,
+      "lon": 76.6394
+    },
+    {
+      "district": "Yadgiri",
+      "firs_2024": 1529,
+      "firs_2023": 2241,
+      "firs_2022": 1824,
+      "yoy_2022_23_pct": 22.9,
+      "top_category_2024": "Gambling",
+      "lat": 16.7681,
+      "lon": 77.1376
+    },
+    {
+      "district": "Kolar",
+      "firs_2024": 1467,
+      "firs_2023": 3180,
+      "firs_2022": 2777,
+      "yoy_2022_23_pct": 14.5,
+      "top_category_2024": "Hurt",
+      "lat": 13.1372,
+      "lon": 78.1298
+    },
+    {
+      "district": "Udupi",
+      "firs_2024": 1379,
+      "firs_2023": 3321,
+      "firs_2022": 2908,
+      "yoy_2022_23_pct": 14.2,
+      "top_category_2024": "Theft",
+      "lat": 13.3409,
+      "lon": 74.7421
+    },
+    {
+      "district": "Kalaburagi City",
+      "firs_2024": 1333,
+      "firs_2023": 2741,
+      "firs_2022": 2350,
+      "yoy_2022_23_pct": 16.6,
+      "top_category_2024": "Theft",
+      "lat": 14.5,
+      "lon": 75.7
+    },
+    {
+      "district": "Chamarajanagar",
+      "firs_2024": 1328,
+      "firs_2023": 2668,
+      "firs_2022": 2373,
+      "yoy_2022_23_pct": 12.4,
+      "top_category_2024": "Hurt",
+      "lat": 14.5,
+      "lon": 75.7
+    },
+    {
+      "district": "Mangaluru City",
+      "firs_2024": 1185,
+      "firs_2023": 3398,
+      "firs_2022": 2665,
+      "yoy_2022_23_pct": 27.5,
+      "top_category_2024": "Gambling",
+      "lat": 12.9141,
+      "lon": 74.856
+    },
+    {
+      "district": "Belagavi City",
+      "firs_2024": 1160,
+      "firs_2023": 2087,
+      "firs_2022": 2127,
+      "yoy_2022_23_pct": -1.9,
+      "top_category_2024": "Theft",
+      "lat": 15.8497,
+      "lon": 74.4977
+    },
+    {
+      "district": "Gadag",
+      "firs_2024": 1156,
+      "firs_2023": 2187,
+      "firs_2022": 1916,
+      "yoy_2022_23_pct": 14.1,
+      "top_category_2024": "Gambling",
+      "lat": 15.43,
+      "lon": 75.63
+    },
+    {
+      "district": "Kodagu",
+      "firs_2024": 929,
+      "firs_2023": 2111,
+      "firs_2022": 1639,
+      "yoy_2022_23_pct": 28.8,
+      "top_category_2024": "Hurt",
+      "lat": 12.4244,
+      "lon": 75.7382
+    },
+    {
+      "district": "Dakshina Kannada",
+      "firs_2024": 888,
+      "firs_2023": 2210,
+      "firs_2022": 2078,
+      "yoy_2022_23_pct": 6.4,
+      "top_category_2024": "Hurt",
+      "lat": 12.85,
+      "lon": 75.1
+    },
+    {
+      "district": "Dharwad",
+      "firs_2024": 823,
+      "firs_2023": 1808,
+      "firs_2022": 1729,
+      "yoy_2022_23_pct": 4.6,
+      "top_category_2024": "Gambling",
+      "lat": 15.4589,
+      "lon": 75.0078
+    },
+    {
+      "district": "KGF",
+      "firs_2024": 661,
+      "firs_2023": 1342,
+      "firs_2022": 1225,
+      "yoy_2022_23_pct": 9.6,
+      "top_category_2024": "Hurt",
+      "lat": 12.9564,
+      "lon": 78.267
+    }
+  ],
+  "most_active_district": {
+    "district": "Bengaluru City",
+    "firs": 38189
+  },
+  "most_common_category": {
+    "category": "Theft & Burglary",
+    "count": 28298
+  },
+  "fastest_growing": {
+    "label": "Cyber Crime (Bengaluru)",
+    "pct": 77.3,
+    "detail": "9,940 \u2192 17,623 cases, 2022\u21922023"
+  },
+  "stations": [
+    {
+      "station": "Bengaluru City (district total)",
+      "firs": 38189
+    },
+    {
+      "station": "Bengaluru District (district total)",
+      "firs": 4795
+    },
+    {
+      "station": "Tumakuru (district total)",
+      "firs": 3861
+    },
+    {
+      "station": "Shivamogga (district total)",
+      "firs": 3256
+    },
+    {
+      "station": "Chitradurga (district total)",
+      "firs": 3118
+    }
+  ],
+  "cases_registered_today": 587,
+  "arrests_today": 437,
+  "cases_sparkline": [
+    528,
+    616,
+    558,
+    646,
+    517,
+    605,
+    587
+  ],
+  "arrests_sparkline": [
+    385,
+    472,
+    406,
+    489,
+    371,
+    459,
+    437
+  ],
+  "daily_figures_note": "Illustrative day-to-day variation around the real 2023 daily average \u2014 no live case-management feed exists publicly.",
+  "blended_detection_rate": 74.5,
+  "alerts": [
+    {
+      "kind": "spike",
+      "title": "Crime Spike Alert",
+      "text": "Theft cases trending up in Shivamogga (illustrative alert)",
+      "minutes_ago": 10
+    },
+    {
+      "kind": "offender",
+      "title": "Repeat Offender Alert",
+      "text": "Fictional example alert for demonstration purposes",
+      "minutes_ago": 21
+    },
+    {
+      "kind": "spike",
+      "title": "Crime Spike Alert",
+      "text": "Theft cases trending up in Belagavi District (illustrative alert)",
+      "minutes_ago": 31
+    },
+    {
+      "kind": "cyber",
+      "title": "Cyber Crime Alert",
+      "text": "Cyber crime up 77.3% year-on-year in Bengaluru (real KSP figure)",
+      "minutes_ago": 40
+    },
+    {
+      "kind": "safety",
+      "title": "Women Safety Alert",
+      "text": "Illustrative example alert for demonstration purposes",
+      "minutes_ago": 51
+    }
+  ],
+  "most_wanted": [
+    {
+      "name": "Suspect Alpha",
+      "initials": "SA",
+      "charges": "Theft, Robbery (fictional)",
+      "reward": 50000,
+      "fictional": true
+    },
+    {
+      "name": "Suspect Beta",
+      "initials": "SB",
+      "charges": "NDPS, Arms Act (fictional)",
+      "reward": 25000,
+      "fictional": true
+    },
+    {
+      "name": "Suspect Gamma",
+      "initials": "SG",
+      "charges": "Cheating, Forgery (fictional)",
+      "reward": 20000,
+      "fictional": true
+    }
+  ],
+  "fir_log": [
+    {
+      "fir_no": "1230/2025",
+      "crime_type": "Other",
+      "station": "Tumakuru Town PS",
+      "minutes_ago": 5,
+      "fictional": true
+    },
+    {
+      "fir_no": "1232/2025",
+      "crime_type": "Theft",
+      "station": "Mysuru District Town PS",
+      "minutes_ago": 15,
+      "fictional": true
+    },
+    {
+      "fir_no": "1231/2025",
+      "crime_type": "Theft",
+      "station": "Mysuru District Town PS",
+      "minutes_ago": 20,
+      "fictional": true
+    },
+    {
+      "fir_no": "1233/2025",
+      "crime_type": "Theft",
+      "station": "Hassan Town PS",
+      "minutes_ago": 24,
+      "fictional": true
+    },
+    {
+      "fir_no": "1234/2025",
+      "crime_type": "Cyber Crime",
+      "station": "Bengaluru District Town PS",
+      "minutes_ago": 25,
+      "fictional": true
+    },
+    {
+      "fir_no": "1237/2025",
+      "crime_type": "Other",
+      "station": "Hassan Town PS",
+      "minutes_ago": 48,
+      "fictional": true
+    },
+    {
+      "fir_no": "1236/2025",
+      "crime_type": "Theft",
+      "station": "Shivamogga Town PS",
+      "minutes_ago": 49,
+      "fictional": true
+    },
+    {
+      "fir_no": "1238/2025",
+      "crime_type": "Other",
+      "station": "Mysuru District Town PS",
+      "minutes_ago": 54,
+      "fictional": true
+    },
+    {
+      "fir_no": "1235/2025",
+      "crime_type": "Theft",
+      "station": "Shivamogga Town PS",
+      "minutes_ago": 66,
+      "fictional": true
+    }
+  ],
+  "network": {
+    "center": {
+      "label": "Suspect X (fictional)",
+      "role": "History-Sheeter (illustrative example)"
+    },
+    "nodes": [
+      {
+        "label": "Associate 1 (fictional)",
+        "type": "person",
+        "icon": "person"
+      },
+      {
+        "label": "Associate 2 (fictional)",
+        "type": "person",
+        "icon": "person"
+      },
+      {
+        "label": "Linked Cases (fictional)",
+        "type": "case",
+        "icon": "file"
+      },
+      {
+        "label": "Linked Gang Group (fictional)",
+        "type": "group",
+        "icon": "group"
+      },
+      {
+        "label": "Stolen Vehicles (fictional)",
+        "type": "vehicle",
+        "icon": "car"
+      },
+      {
+        "label": "Phone Numbers (fictional)",
+        "type": "phone",
+        "icon": "phone"
+      }
+    ]
+  },
+  "vehicles": [
+    {
+      "id": "KA-37-DF-2596",
+      "type": "Two-Wheeler",
+      "status": "Stolen",
+      "district": "Davanagere",
+      "linked_fir": "1248/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-40-DH-9711",
+      "type": "Commercial Vehicle",
+      "status": "Impounded",
+      "district": "Bengaluru City",
+      "linked_fir": "1244/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-60-HF-5911",
+      "type": "Car",
+      "status": "Recovered",
+      "district": "Davanagere",
+      "linked_fir": "1252/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-16-BE-9604",
+      "type": "Commercial Vehicle",
+      "status": "Impounded",
+      "district": "Ramanagara",
+      "linked_fir": "1253/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-19-BB-9387",
+      "type": "Commercial Vehicle",
+      "status": "Recovered",
+      "district": "Raichur",
+      "linked_fir": "1254/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-10-HG-1642",
+      "type": "Two-Wheeler",
+      "status": "Stolen",
+      "district": "Belagavi District",
+      "linked_fir": "1254/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-37-FF-6737",
+      "type": "Two-Wheeler",
+      "status": "Under Investigation",
+      "district": "Mysuru District",
+      "linked_fir": "1248/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-30-BB-5422",
+      "type": "Commercial Vehicle",
+      "status": "Stolen",
+      "district": "Ramanagara",
+      "linked_fir": "1231/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-45-EH-5662",
+      "type": "Two-Wheeler",
+      "status": "Under Investigation",
+      "district": "Vijayapura",
+      "linked_fir": "1258/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-23-AH-6823",
+      "type": "Car",
+      "status": "Stolen",
+      "district": "Mandya",
+      "linked_fir": "1245/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-14-EC-5056",
+      "type": "Commercial Vehicle",
+      "status": "Under Investigation",
+      "district": "Bengaluru City",
+      "linked_fir": "1259/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-32-BC-8359",
+      "type": "Commercial Vehicle",
+      "status": "Impounded",
+      "district": "Haveri",
+      "linked_fir": "1258/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-53-GE-7804",
+      "type": "Auto-Rickshaw",
+      "status": "Under Investigation",
+      "district": "Tumakuru",
+      "linked_fir": "1260/2025",
+      "fictional": true
+    },
+    {
+      "id": "KA-10-BC-3478",
+      "type": "Car",
+      "status": "Recovered",
+      "district": "Shivamogga",
+      "linked_fir": "1230/2025",
+      "fictional": true
+    }
+  ],
+  "directory": [
+    {
+      "name": "Anitha Hegde",
+      "rank": "Head Constable",
+      "station": "Hassan HQ",
+      "badge": "KSP-91797",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Anitha Naik",
+      "rank": "Inspector",
+      "station": "Belagavi District HQ",
+      "badge": "KSP-54571",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Anitha Reddy",
+      "rank": "DySP",
+      "station": "Ramanagara HQ",
+      "badge": "KSP-39719",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Arjun Naik",
+      "rank": "Circle Inspector",
+      "station": "Vijayapura HQ",
+      "badge": "KSP-94296",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Arun Hegde",
+      "rank": "Inspector",
+      "station": "Bidar HQ",
+      "badge": "KSP-25119",
+      "status": "On Leave",
+      "fictional": true
+    },
+    {
+      "name": "Arun Shetty",
+      "rank": "DySP",
+      "station": "Chitradurga HQ",
+      "badge": "KSP-43063",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Deepa Shetty",
+      "rank": "ASI",
+      "station": "Ballari HQ",
+      "badge": "KSP-89929",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Divya Gowda",
+      "rank": "DySP",
+      "station": "Tumakuru HQ",
+      "badge": "KSP-44224",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Divya Hegde",
+      "rank": "DySP",
+      "station": "Chitradurga HQ",
+      "badge": "KSP-81194",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Divya Naik",
+      "rank": "DySP",
+      "station": "Vijayapura HQ",
+      "badge": "KSP-13798",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Ganesh Kumar",
+      "rank": "Inspector",
+      "station": "Raichur HQ",
+      "badge": "KSP-39733",
+      "status": "On Leave",
+      "fictional": true
+    },
+    {
+      "name": "Ganesh Nair",
+      "rank": "Circle Inspector",
+      "station": "Vijayapura HQ",
+      "badge": "KSP-39201",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Kiran Iyer",
+      "rank": "DySP",
+      "station": "Mandya HQ",
+      "badge": "KSP-39234",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Lakshmi Naik",
+      "rank": "Constable",
+      "station": "Belagavi District HQ",
+      "badge": "KSP-13027",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Lakshmi Reddy",
+      "rank": "ASI",
+      "station": "Chikkamagaluru HQ",
+      "badge": "KSP-68619",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Pooja Iyer",
+      "rank": "Head Constable",
+      "station": "Ramanagara HQ",
+      "badge": "KSP-62294",
+      "status": "On Leave",
+      "fictional": true
+    },
+    {
+      "name": "Pooja Naik",
+      "rank": "ASI",
+      "station": "Bidar HQ",
+      "badge": "KSP-21257",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Priya Kumar",
+      "rank": "Constable",
+      "station": "Bengaluru City HQ",
+      "badge": "KSP-29826",
+      "status": "Field Deployment",
+      "fictional": true
+    },
+    {
+      "name": "Rajesh Patil",
+      "rank": "ASI",
+      "station": "Belagavi District HQ",
+      "badge": "KSP-46953",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Ravi Hegde",
+      "rank": "Inspector",
+      "station": "Chikkamagaluru HQ",
+      "badge": "KSP-19216",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Ravi Naik",
+      "rank": "Inspector",
+      "station": "Ramanagara HQ",
+      "badge": "KSP-34983",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Ravi Shetty",
+      "rank": "Head Constable",
+      "station": "Hassan HQ",
+      "badge": "KSP-33399",
+      "status": "On Leave",
+      "fictional": true
+    },
+    {
+      "name": "Sunita Kumar",
+      "rank": "Head Constable",
+      "station": "Ramanagara HQ",
+      "badge": "KSP-62610",
+      "status": "On Duty",
+      "fictional": true
+    },
+    {
+      "name": "Sunita Nair",
+      "rank": "Constable",
+      "station": "Kalaburgi HQ",
+      "badge": "KSP-95847",
+      "status": "On Duty",
+      "fictional": true
+    }
+  ],
+  "predictive": {
+    "horizon_days": 7,
+    "top_categories": [
+      "Theft & Burglary",
+      "Cyber Crime"
+    ],
+    "districts": [
+      "Bengaluru City",
+      "Bengaluru District",
+      "Tumakuru"
+    ],
+    "risk_level": "High Risk",
+    "confidence_score": 87,
+    "note": "Illustrative projection for demonstration \u2014 not a statistical forecast model."
+  },
+  "copilot_suggestions": [
+    "Cyber crime rose 77.3% in Bengaluru (2022\u219223, real KSP data) \u2014 review cyber cell staffing",
+    "Bengaluru City recorded 38,189 cases in 2024, the highest in the state",
+    "Theft & burglary is the single largest category statewide in 2024 (28,298 cases)"
+  ],
+  "bengaluru_detail": {
+    "property": {
+      "rows": [
+        {
+          "label": "Murder",
+          "y2021": 145,
+          "y2022": 156,
+          "y2023": 205
+        },
+        {
+          "label": "Murder (Gain)",
+          "y2021": 8,
+          "y2022": 17,
+          "y2023": 2
+        },
+        {
+          "label": "Dacoity",
+          "y2021": 35,
+          "y2022": 23,
+          "y2023": 36
+        },
+        {
+          "label": "Robbery",
+          "y2021": 364,
+          "y2022": 478,
+          "y2023": 673
+        },
+        {
+          "label": "Chain Snatching",
+          "y2021": 166,
+          "y2022": 151,
+          "y2023": 153
+        },
+        {
+          "label": "HBT (Day)",
+          "y2021": 135,
+          "y2022": 179,
+          "y2023": 265
+        },
+        {
+          "label": "HBT (Night)",
+          "y2021": 654,
+          "y2022": 702,
+          "y2023": 879
+        },
+        {
+          "label": "House Thefts",
+          "y2021": 591,
+          "y2022": 912,
+          "y2023": 1692
+        },
+        {
+          "label": "Servant Thefts",
+          "y2021": 177,
+          "y2022": 205,
+          "y2023": 320
+        },
+        {
+          "label": "M.V. Thefts",
+          "y2021": 4124,
+          "y2022": 5062,
+          "y2023": 5909
+        },
+        {
+          "label": "Ordinary Thefts",
+          "y2021": 1167,
+          "y2022": 1369,
+          "y2023": 2493
+        }
+      ],
+      "total": {
+        "y2021": 7566,
+        "y2022": 9254,
+        "y2023": 12627
+      }
+    },
+    "cyber": {
+      "rows": [
+        {
+          "label": "Central",
+          "y2021": 660,
+          "y2022": 989,
+          "y2023": 1126
+        },
+        {
+          "label": "West",
+          "y2021": 1148,
+          "y2022": 1384,
+          "y2023": 1941
+        },
+        {
+          "label": "North",
+          "y2021": 618,
+          "y2022": 1300,
+          "y2023": 3260
+        },
+        {
+          "label": "South",
+          "y2021": 942,
+          "y2022": 1360,
+          "y2023": 2094
+        },
+        {
+          "label": "East",
+          "y2021": 602,
+          "y2022": 937,
+          "y2023": 1994
+        },
+        {
+          "label": "North East",
+          "y2021": 832,
+          "y2022": 1550,
+          "y2023": 1917
+        },
+        {
+          "label": "South East",
+          "y2021": 735,
+          "y2022": 1329,
+          "y2023": 2674
+        },
+        {
+          "label": "Whitefield",
+          "y2021": 869,
+          "y2022": 1055,
+          "y2023": 2562
+        },
+        {
+          "label": "Cyber PS (CID)",
+          "y2021": 16,
+          "y2022": 36,
+          "y2023": 55
+        }
+      ],
+      "total": {
+        "y2021": 6422,
+        "y2022": 9940,
+        "y2023": 17623
+      }
+    },
+    "women": {
+      "rows": [
+        {
+          "label": "Rape (376 IPC)",
+          "y2021": 116,
+          "y2022": 152,
+          "y2023": 176
+        },
+        {
+          "label": "Molestation (354 IPC)",
+          "y2021": 573,
+          "y2022": 731,
+          "y2023": 1135
+        },
+        {
+          "label": "Insulting Modesty (509 IPC)",
+          "y2021": 19,
+          "y2022": 29,
+          "y2023": 60
+        },
+        {
+          "label": "Dowry Death (304B IPC)",
+          "y2021": 26,
+          "y2022": 29,
+          "y2023": 25
+        },
+        {
+          "label": "Cruelty by Husband/Relatives (498A IPC)",
+          "y2021": 422,
+          "y2022": 580,
+          "y2023": 696
+        },
+        {
+          "label": "Immoral Trafficking Act",
+          "y2021": 129,
+          "y2022": 155,
+          "y2023": 161
+        },
+        {
+          "label": "Indecent Representation of Women Act",
+          "y2021": 0,
+          "y2022": 0,
+          "y2023": 0
+        },
+        {
+          "label": "Dowry Prohibition Act",
+          "y2021": 735,
+          "y2022": 954,
+          "y2023": 1007
+        }
+      ],
+      "total": {
+        "y2021": 2020,
+        "y2022": 2630,
+        "y2023": 3260
+      }
+    }
+  }
+}
