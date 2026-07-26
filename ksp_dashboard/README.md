@@ -6,7 +6,7 @@ published Karnataka State Police statistics** — not synthetic demo data.
 analytics and mapping, a working PDF export, a real session audit log, and
 editable settings with file upload.
 
-> **Real data. Real features. Zero backend required.**
+> **Real data. Real features.**
 
 ---
 
@@ -48,8 +48,6 @@ is no server, no database, and no build step required to *view* it.
 - **As a Claude artifact:** if you're viewing this inside Claude, the
   dashboard renders inline and its chat features can use a real Claude model
   automatically (see [Live AI](#the-live-ai-chat-honestly-explained)).
-- **On a real URL:** see [`DEPLOY.md`](DEPLOY.md) for one-click deployment
-  to GitHub Pages, Netlify, Vercel, or Cloudflare Pages.
 
 ## Feature tour (all 15 tabs)
 
@@ -165,7 +163,6 @@ this project doesn't pretend otherwise.
 ```
 ksp_dashboard/
 ├── ksp_crime_dashboard.html   # the built app — open this file directly
-├── ksp_pitch_deck.pptx        # 12-slide showcase deck (real screenshots + data)
 ├── build_dashboard.py         # main build script: HTML/CSS/JS templating
 ├── build_charts.py            # Plotly figure builders + chart registry
 ├── build_network_svg.py       # the illustrative network-diagram SVG
@@ -183,9 +180,7 @@ ksp_dashboard/
 │       ├── blr_property_crime_2021_2023.csv    # real, Bengaluru City Police
 │       ├── blr_cyber_crime_2021_2023.csv       # real, Bengaluru City Police
 │       └── blr_women_crime_2021_2023.csv       # real, Bengaluru City Police
-├── README.md                  # this file
-├── CHANGES.md                  # full changelog across every revision
-└── DEPLOY.md                   # step-by-step hosting instructions
+└── README.md                  # this file
 ```
 
 ## Building it yourself
@@ -240,12 +235,7 @@ source citation. Full per-figure citations: [`data/real/SOURCES.md`](data/real/S
 
 ## Other docs in this repo
 
-- [`CHANGES.md`](CHANGES.md) — the full changelog across every revision of
-  this project (bug fixes, the real-data migration, the four rebuilt
-  "stub" tabs, the responsive-nav fix, the Live AI layer, and this
-  README/cleanup pass).
-- [`DEPLOY.md`](DEPLOY.md) — copy-pasteable deployment steps for GitHub
-  Pages, Netlify, Vercel, and Cloudflare Pages.
+
 - [`data/real/SOURCES.md`](data/real/SOURCES.md) — exact source citation
   for every real figure used in the dashboard.
 
