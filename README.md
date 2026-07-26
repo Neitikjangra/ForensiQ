@@ -48,8 +48,7 @@ is no server, no database, and no build step required to *view* it.
 - **As a Claude artifact:** if you're viewing this inside Claude, the
   dashboard renders inline and its chat features can use a real Claude model
   automatically (see [Live AI](#the-live-ai-chat-honestly-explained)).
-- **On a real URL:** see [`DEPLOY.md`](DEPLOY.md) for one-click deployment
-  to GitHub Pages, Netlify, Vercel, or Cloudflare Pages.
+
 
 ## Feature tour (all 15 tabs)
 
