@@ -197,6 +197,55 @@ python3 build_dashboard.py   # (re)builds ksp_crime_dashboard.html
 Both scripts are deterministic — rebuilding produces a byte-identical
 `index.html` given the same source files.
 
+
+
+## Setup Instructions
+
+
+
+### Prerequisites
+
+
+
+- Python 3.9+
+- Plotly
+- Any modern web browser (Chrome, Edge, Firefox, or Brave)
+
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Neitikjangra/ForensiQ.git
+cd ksp_dashboard 
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install plotly
+```
+
+### 3. Generate the Dataset
+
+```bash
+python real_data.py
+```
+
+### 4. Build the Dashboard
+
+```bash
+python build_dashboard.py
+```
+
+### 5. Run the Project
+
+```bash
+cd ksp_dashboard  
+start index.html 
+``` 
+---
+
+
 ## Responsive design
 
 Verified with zero horizontal overflow and zero console errors from
