@@ -201,8 +201,6 @@ Both scripts are deterministic — rebuilding produces a byte-identical
 
 ## Setup Instructions
 
-
-
 ### Prerequisites
 
 
