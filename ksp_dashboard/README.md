@@ -198,6 +198,8 @@ Both scripts are deterministic — rebuilding produces a byte-identical
 
 ### Prerequisites
 
+
+
 - Python 3.9+
 - Plotly
 - Any modern web browser (Chrome, Edge, Firefox, or Brave)
